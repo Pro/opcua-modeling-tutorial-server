@@ -1,0 +1,4 @@
+[submodule "model"]
+	path = model
+	url = https://github.com/Pro/opcua-modeling-tutorial
+	branch = master-published
