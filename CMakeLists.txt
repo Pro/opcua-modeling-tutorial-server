@@ -18,7 +18,7 @@ ua_generate_nodeset_and_datatypes(
         FILE_BSD "${PROJECT_SOURCE_DIR}/model/Published/FooFlt/FooFlt.Types.bsd"
         OUTPUT_DIR "${GENERATE_OUTPUT_DIR}"
 	# This namespace index must match the order in which you are adding the nodeset in the source code
-        NAMESPACE_IDX 2
+        NAMESPACE_MAP "2:https://new.foo.com/zebra-compression/flattening-and-subspacefolding/UA/"
         FILE_NS "${PROJECT_SOURCE_DIR}/model/Published/FooFlt/FooFlt.NodeSet2.xml"
         INTERNAL
 )
