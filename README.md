@@ -11,7 +11,7 @@ https://github.com/Pro/opcua-modeling-tutorial/
 Currently this is tested on Linux, but should also work on other platforms.
 
 1. Install open62541 as mentioned here: https://open62541.org/doc/current/installing.html
-1. Clone this repo: `git clone https://github.com/Pro/opcua-modeling-tutorial-server`
+1. Clone this repo: `git clone --recurse-submodules https://github.com/Pro/opcua-modeling-tutorial-server`
 1. `cd opcua-modeling-tutorial-server && mkdir build && cd build`
 1. `cmake ..`
 1. `make -j`
