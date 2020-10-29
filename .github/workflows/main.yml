@@ -21,7 +21,7 @@ jobs:
         run: sudo apt-get install -y --no-install-recommends libmbedtls-dev python-netifaces
 
       - name: Install open62541
-        run: ./tools/install_open62541.sh 243d93ada7c588379cc027e3c24e1ca77a808189 ${{runner.workspace}}/install
+        run: ./tools/install_open62541.sh aa089959a66cdbba08fcb654bf165c4aab80c151 ${{runner.workspace}}/install
 
       - name: Create Build Environment
         run: cmake -E make_directory ${{runner.workspace}}/build
